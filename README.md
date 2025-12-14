@@ -28,6 +28,18 @@ Users can upload files through a web interface and receive a unique download lin
 - Understanding **file uploads**, **authentication**, and **MongoDB integration**
 - Building a **portfolio-ready project**
 
+---
+
+## 📸 Screenshots
+
+### File Upload Interface
+![Upload File](screenshots/upload-file.png)
+
+### File Download Interface
+![Download File](screenshots/download-file.png)
+
+---
+
 ## Tech Stack
 
 | Technology | Purpose |
