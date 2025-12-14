@@ -1,18 +1,32 @@
-# Node.js Secure File Sharing
+# 🔐 Node.js Secure File Sharing
 
-A secure file sharing application built with Node.js and MongoDB that allows users to upload files, generate unique download links, and optionally protect them with passwords and expiration times.
+A **basic secure file sharing project** built with Node.js and MongoDB. It allows users to upload files, generate unique download links, and optionally protect them with passwords and expiration times.
 
-## Project Overview
+---
 
-This application provides a simple yet secure way to share files. Users can upload files through a web interface and receive a unique download link. The system supports password protection and time-based expiration for enhanced security. All uploaded files are stored on the server with unique identifiers, and metadata is tracked in MongoDB including download counts, expiration dates, and optional password hashes.
+## 📌 Project Overview
 
-**Key Features:**
-- Upload files with unique UUID-based identifiers
-- Optional password protection using bcrypt encryption
-- Configurable expiration times for download links
-- Track download statistics
-- RESTful API design
-- Clean and responsive web interface
+This is a **simple, beginner-friendly project** designed to demonstrate core backend concepts using Node.js and MongoDB.
+
+Users can upload files through a web interface and receive a unique download link. The system supports password protection and time-based expiration for added security. Files are stored on the server with unique identifiers, while metadata such as download counts, expiration dates, and optional password hashes are tracked in MongoDB.
+
+---
+
+## ✨ Key Features
+
+- 📤 Upload files with UUID-based identifiers  
+- 🔒 Optional password protection using bcrypt  
+- ⏳ Configurable expiration times for download links  
+- 📊 Download count tracking  
+- 🔌 RESTful API design  
+- 🎨 Clean and responsive web interface  
+
+---
+
+### 🎯 Ideal For
+- Beginners learning **Node.js backend development**
+- Understanding **file uploads**, **authentication**, and **MongoDB integration**
+- Building a **portfolio-ready project**
 
 ## Tech Stack
 
