@@ -1,6 +1,6 @@
 # Node.js Secure File Sharing
 
-A secure file sharing application built with Node.js and MongoDB that allows users to upload files, generate unique download links, and optionally protect them with passwords and expiration times.
+A basic secure file sharing application built with Node.js and MongoDB that allows users to upload files, generate unique download links, and optionally protect them with passwords and expiration times.
 
 ## Project Overview
 
